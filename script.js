@@ -1,5 +1,5 @@
-var date1 = new Date();
-var date2 = new Date("12/08/2019");
+var date2 = new Date();
+var date1 = new Date("12/08/2019");
 var date_diff_indays = function() {
     dt1 = new Date(date1);
     dt2 = new Date(date2);
