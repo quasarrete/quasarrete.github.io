@@ -14,13 +14,15 @@
 </head>
 <body>
     <div class="container body">
-        <div class="style-text awesome" id= "demo"></div>
+		<marquee behavior="alternate" direction="left" scrollamount="50"> <div class="awesome" id= "demo"></div></marquee>
+       
         <div class="style-text">DAYS UNTIL</div>
         <div class="style-text"><img draggable="false" class="emoji" alt="🇧🇩" src="https://twemoji.maxcdn.com/v/12.1.4/72x72/1f1e7-1f1e9.png">
         </div>
     </div>
-<div>
-	<a><img src="https://i.ibb.co/MpJK8Q8/BGpng.png" alt="BGpng" border="0" width="100" height="150" border="0"></a>
-</div>
+	<div>
+		<a><img src="https://i.ibb.co/MpJK8Q8/BGpng.png" alt="BGpng" border="0" width="100" height="150" border="0"></a>
+	</div>
+    <script> document.getElementById("demo").innerHTML = date_diff_indays()</script>
 </body>
 </html>
